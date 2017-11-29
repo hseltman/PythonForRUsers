@@ -103,3 +103,21 @@ ENV/
 # Windows crap
 desktop.ini
 *.lnk
+25.3. unittest — Unit testing framework — Python 2.7.14 documentation.URL
+out.txt
+*.png
+*.URL
+
+# Previous years
+/PreviousYears
+doit
+Python for R Users Part 1.pdf
+Python for R Users Part 2.pdf
+
+# HW
+/PythonHW1
+/PythonHW2
+/PythonHW3
+test.out
+test.py
+twoFunctions.py
