@@ -115,9 +115,6 @@ Python for R Users Part 1.pdf
 Python for R Users Part 2.pdf
 
 # HW
-/PythonHW1
-/PythonHW2
-/PythonHW3
 !/PythonHW1/Autograder.config
 !/PythonHW1/PythonHW1.py.config
 !/PythonHW1/PythonHW1.py
@@ -133,6 +130,11 @@ Python for R Users Part 2.pdf
 !/PythonHW3/processOnePlayer.py
 !/PythonHW3/solutions_processOnePlayer.py
 !/PythonHW3/makeDaysData.py
+
+/PythonHW1
+/PythonHW2
+/PythonHW3
+
 test.out
 test.py
 twoFunctions.py
