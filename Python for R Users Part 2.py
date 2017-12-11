@@ -155,8 +155,9 @@ dtf['age']
 type(dtf['age'])
 dtf['age']['C']  # or dtf['age'][2]
 dtf[1]  # fails!!!
-dtf[[1]]
-dtf[[1, 0]]
+# Feature removed in recent versions of Pandas (>~0.17.0):
+# dtf[[1]]  
+# dtf[[1, 0]]
 dtf[['MSP', 'name']]
 
 dtf[1:3]  # slices rows; excludes row 3
@@ -298,8 +299,7 @@ gma.mean()
 gma.agg([np.sum, np.mean, np.std])
 
 gm.transform(lambda x: (x-x.mean())/x.std())
-pd.concat([dat, gm.transform(lambda x: (x-x.mean())/x.std())],
-          axis=2)
+pd.concat([dat, gm.transform(lambda x: (x-x.mean())/x.std())], axis=1)
 
 # Note the following confusing issue:
 np.std(dat.age)  # numpy default is ddof=0 (pop. sd)
